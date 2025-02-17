@@ -3,6 +3,8 @@ description: Propose a new idea.
 type: "Feature"
 labels:
     - "status: needs triage"
+projects:
+    - "SLNE-Development/3"
 
 body:
     - type: markdown
