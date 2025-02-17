@@ -1,0 +1,35 @@
+name: "📚 Documentation Issue"
+description: Report issues or improvements related to project documentation.
+type: "Documentation"
+labels:
+  - "status: needs triage"
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping us improve our documentation. Please provide as much detail as possible.
+  - type: textarea
+    attributes:
+      label: Documentation Page/Section
+      description: Specify the documentation page or section where you encountered the issue.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Issue Description
+      description: Describe the error or the improvement needed.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Suggested Changes
+      description: If applicable, provide your suggestions for fixing the issue.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Additional Context
+      description: Add any screenshots or further information.
+    validations:
+      required: false
