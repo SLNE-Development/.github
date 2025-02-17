@@ -1,6 +1,8 @@
 name: "🐛 Bug or Incompatibility"
 description: Report issues related to unexpected behavior or vanilla/plugin incompatibility.
 type: "Bug"
+projects:
+    - "CastCrafter/3"
 labels:
     - "status: needs triage"
 
