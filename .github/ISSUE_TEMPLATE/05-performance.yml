@@ -3,6 +3,8 @@ description: Report issues related to performance, slowdowns, or bottlenecks.
 type: "Bug"
 labels:
   - "status: needs triage"
+projects:
+  - "SLNE-Development/3"
 
 body:
   - type: markdown

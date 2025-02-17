@@ -3,6 +3,8 @@ description: Report issues or improvements related to project documentation.
 type: "Documentation"
 labels:
   - "status: needs triage"
+projects:
+  - "SLNE-Development/3"
 
 body:
   - type: markdown

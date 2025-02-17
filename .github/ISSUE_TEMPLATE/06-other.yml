@@ -3,6 +3,8 @@ description: Submit an issue that does not fit into any of the predefined catego
 type: "Other"
 labels:
   - "status: needs triage"
+projects:
+  - "SLNE-Development/3"
 
 body:
   - type: markdown
