@@ -3,6 +3,8 @@ description: Suggest improvements or enhancements to existing functionality.
 type: "Improvement"
 labels:
   - "status: needs triage"
+projects:
+    - "SLNE-Development/3"
 
 body:
   - type: markdown
