@@ -1,0 +1,35 @@
+name: "📝 Other Issue"
+description: Submit an issue that does not fit into any of the predefined categories.
+type: "Other"
+labels:
+  - "status: needs triage"
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please provide as much detail as possible to help us understand and address your issue.
+  - type: textarea
+    attributes:
+      label: Issue Description
+      description: Describe the issue or suggestion.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce (if applicable)
+      description: If applicable, list the steps to reproduce the issue.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Expected Outcome
+      description: What did you expect to happen?
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Additional Information
+      description: Provide any other context, logs, or screenshots.
+    validations:
+      required: false
